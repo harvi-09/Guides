@@ -3,7 +3,7 @@ utxo(pivx) chain clone
 # TO CLONE COIN (PIVX)
 
 ## Build depend
-
+[guide](https://bitcointalk.org/index.php?topic=3345808.msg35016844#msg35016844)
 ### Changing parameters : 
 - from source code change params accordingly
 - remove vseed given that we don't have servers
