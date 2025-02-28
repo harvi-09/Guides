@@ -91,6 +91,7 @@ example:
 MN1 192.168.0.168:16050 8918UVrzyPQ5giVe5oZnqMTLZxxSfD5zjDCR9SWoKH3z4ERXVvd 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 ```
 
+
 - set mycoin.conf in data dir as :
 
 ```javascript
@@ -101,3 +102,14 @@ externalip=SERVER ip and coin P2P Port
 - start daemon and wait till synced
 - wait for 15 confirmations for collateral tx
 - Fire in qt console => startmasternode alias false MN_Name
+
+### Setting up explorer
+()[https://github.com/bulwark-crypto/bulwark-explorer/blob/master/README.md]
+()[https://github.com/iquidus/explorer/blob/master/README.md]
+- iquidus and bulwark
+- create mongodb user and password
+- edit config.json(iquidus) / setting.json(bulwark)
+	- rpc port, username, password
+	- db user, password, database
+	- api host to our local ip
+- set rpc user and password in mycoin.conf (data dir)
