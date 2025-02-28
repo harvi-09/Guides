@@ -104,8 +104,8 @@ externalip=SERVER ip and coin P2P Port
 - Fire in qt console => startmasternode alias false MN_Name
 
 ### Setting up explorer
-()[https://github.com/bulwark-crypto/bulwark-explorer/blob/master/README.md]
-()[https://github.com/iquidus/explorer/blob/master/README.md]
+[bulwark](https://github.com/bulwark-crypto/bulwark-explorer/blob/master/README.md)
+[iquidius](https://github.com/iquidus/explorer/blob/master/README.md)
 - iquidus and bulwark
 - create mongodb user and password
 - edit config.json(iquidus) / setting.json(bulwark)
